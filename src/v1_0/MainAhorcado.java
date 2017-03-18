@@ -15,12 +15,10 @@ public class MainAhorcado {
 		if (s.contains("1")) {
 			System.out.println("JUGAR");
 			Juego.jugarAhorcado();
-		} else if (s.contains("2")) {
-			System.out.println("AÑADIR PALABRA (No Disponible)");
-		} else {
-			System.out.println("Opcion no Inexistente");
 		}
 		sc.close();
+		
+		
 	}
 
 }
